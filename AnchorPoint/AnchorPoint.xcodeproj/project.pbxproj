@@ -13,8 +13,8 @@
 		01530F091E9C6B3100EA0EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01530F071E9C6B3100EA0EF8 /* Main.storyboard */; };
 		01530F0B1E9C6B3100EA0EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01530F0A1E9C6B3100EA0EF8 /* Assets.xcassets */; };
 		01530F0E1E9C6B3100EA0EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01530F0C1E9C6B3100EA0EF8 /* LaunchScreen.storyboard */; };
-		01530F191E9C6B3100EA0EF8 /* anchorPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01530F181E9C6B3100EA0EF8 /* anchorPointTests.m */; };
-		01530F241E9C6B3100EA0EF8 /* anchorPointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01530F231E9C6B3100EA0EF8 /* anchorPointUITests.m */; };
+		01530F191E9C6B3100EA0EF8 /* AnchorPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01530F181E9C6B3100EA0EF8 /* AnchorPointTests.m */; };
+		01530F241E9C6B3100EA0EF8 /* AnchorPointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01530F231E9C6B3100EA0EF8 /* AnchorPointUITests.m */; };
 		01530F3A1E9DB49D00EA0EF8 /* ZPositionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01530F391E9DB49D00EA0EF8 /* ZPositionVC.m */; };
 		01530F3F1E9DB6C400EA0EF8 /* ZPositionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01530F3D1E9DB6C400EA0EF8 /* ZPositionVC.xib */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01530EFB1E9C6B3100EA0EF8 /* anchorPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anchorPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01530EFB1E9C6B3100EA0EF8 /* AnchorPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnchorPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01530EFF1E9C6B3100EA0EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01530F011E9C6B3100EA0EF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01530F021E9C6B3100EA0EF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,11 +47,11 @@
 		01530F0A1E9C6B3100EA0EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01530F0D1E9C6B3100EA0EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01530F0F1E9C6B3100EA0EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01530F141E9C6B3100EA0EF8 /* anchorPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anchorPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01530F181E9C6B3100EA0EF8 /* anchorPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = anchorPointTests.m; sourceTree = "<group>"; };
+		01530F141E9C6B3100EA0EF8 /* AnchorPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnchorPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01530F181E9C6B3100EA0EF8 /* AnchorPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchorPointTests.m; sourceTree = "<group>"; };
 		01530F1A1E9C6B3100EA0EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01530F1F1E9C6B3100EA0EF8 /* anchorPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anchorPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01530F231E9C6B3100EA0EF8 /* anchorPointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = anchorPointUITests.m; sourceTree = "<group>"; };
+		01530F1F1E9C6B3100EA0EF8 /* AnchorPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnchorPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01530F231E9C6B3100EA0EF8 /* AnchorPointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchorPointUITests.m; sourceTree = "<group>"; };
 		01530F251E9C6B3100EA0EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01530F381E9DB49D00EA0EF8 /* ZPositionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPositionVC.h; sourceTree = "<group>"; };
 		01530F391E9DB49D00EA0EF8 /* ZPositionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPositionVC.m; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 		01530EF21E9C6B3100EA0EF8 = {
 			isa = PBXGroup;
 			children = (
-				01530EFD1E9C6B3100EA0EF8 /* anchorPoint */,
-				01530F171E9C6B3100EA0EF8 /* anchorPointTests */,
+				01530EFD1E9C6B3100EA0EF8 /* AnchorPoint */,
+				01530F171E9C6B3100EA0EF8 /* AnchorPointTests */,
 				01530F221E9C6B3100EA0EF8 /* anchorPointUITests */,
 				01530EFC1E9C6B3100EA0EF8 /* Products */,
 			);
@@ -96,14 +96,14 @@
 		01530EFC1E9C6B3100EA0EF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01530EFB1E9C6B3100EA0EF8 /* anchorPoint.app */,
-				01530F141E9C6B3100EA0EF8 /* anchorPointTests.xctest */,
-				01530F1F1E9C6B3100EA0EF8 /* anchorPointUITests.xctest */,
+				01530EFB1E9C6B3100EA0EF8 /* AnchorPoint.app */,
+				01530F141E9C6B3100EA0EF8 /* AnchorPointTests.xctest */,
+				01530F1F1E9C6B3100EA0EF8 /* AnchorPointUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01530EFD1E9C6B3100EA0EF8 /* anchorPoint */ = {
+		01530EFD1E9C6B3100EA0EF8 /* AnchorPoint */ = {
 			isa = PBXGroup;
 			children = (
 				01530F011E9C6B3100EA0EF8 /* AppDelegate.h */,
@@ -119,6 +119,7 @@
 				01530F0F1E9C6B3100EA0EF8 /* Info.plist */,
 				01530EFE1E9C6B3100EA0EF8 /* Supporting Files */,
 			);
+			name = AnchorPoint;
 			path = anchorPoint;
 			sourceTree = "<group>";
 		};
@@ -130,19 +131,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01530F171E9C6B3100EA0EF8 /* anchorPointTests */ = {
+		01530F171E9C6B3100EA0EF8 /* AnchorPointTests */ = {
 			isa = PBXGroup;
 			children = (
-				01530F181E9C6B3100EA0EF8 /* anchorPointTests.m */,
+				01530F181E9C6B3100EA0EF8 /* AnchorPointTests.m */,
 				01530F1A1E9C6B3100EA0EF8 /* Info.plist */,
 			);
+			name = AnchorPointTests;
 			path = anchorPointTests;
 			sourceTree = "<group>";
 		};
 		01530F221E9C6B3100EA0EF8 /* anchorPointUITests */ = {
 			isa = PBXGroup;
 			children = (
-				01530F231E9C6B3100EA0EF8 /* anchorPointUITests.m */,
+				01530F231E9C6B3100EA0EF8 /* AnchorPointUITests.m */,
 				01530F251E9C6B3100EA0EF8 /* Info.plist */,
 			);
 			path = anchorPointUITests;
@@ -151,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01530EFA1E9C6B3100EA0EF8 /* anchorPoint */ = {
+		01530EFA1E9C6B3100EA0EF8 /* AnchorPoint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01530F281E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "anchorPoint" */;
+			buildConfigurationList = 01530F281E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "AnchorPoint" */;
 			buildPhases = (
 				01530EF71E9C6B3100EA0EF8 /* Sources */,
 				01530EF81E9C6B3100EA0EF8 /* Frameworks */,
@@ -163,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = anchorPoint;
+			name = AnchorPoint;
 			productName = anchorPoint;
-			productReference = 01530EFB1E9C6B3100EA0EF8 /* anchorPoint.app */;
+			productReference = 01530EFB1E9C6B3100EA0EF8 /* AnchorPoint.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01530F131E9C6B3100EA0EF8 /* anchorPointTests */ = {
+		01530F131E9C6B3100EA0EF8 /* AnchorPointTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01530F2B1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "anchorPointTests" */;
+			buildConfigurationList = 01530F2B1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "AnchorPointTests" */;
 			buildPhases = (
 				01530F101E9C6B3100EA0EF8 /* Sources */,
 				01530F111E9C6B3100EA0EF8 /* Frameworks */,
@@ -181,14 +183,14 @@
 			dependencies = (
 				01530F161E9C6B3100EA0EF8 /* PBXTargetDependency */,
 			);
-			name = anchorPointTests;
+			name = AnchorPointTests;
 			productName = anchorPointTests;
-			productReference = 01530F141E9C6B3100EA0EF8 /* anchorPointTests.xctest */;
+			productReference = 01530F141E9C6B3100EA0EF8 /* AnchorPointTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		01530F1E1E9C6B3100EA0EF8 /* anchorPointUITests */ = {
+		01530F1E1E9C6B3100EA0EF8 /* AnchorPointUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01530F2E1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "anchorPointUITests" */;
+			buildConfigurationList = 01530F2E1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "AnchorPointUITests" */;
 			buildPhases = (
 				01530F1B1E9C6B3100EA0EF8 /* Sources */,
 				01530F1C1E9C6B3100EA0EF8 /* Frameworks */,
@@ -199,9 +201,9 @@
 			dependencies = (
 				01530F211E9C6B3100EA0EF8 /* PBXTargetDependency */,
 			);
-			name = anchorPointUITests;
+			name = AnchorPointUITests;
 			productName = anchorPointUITests;
-			productReference = 01530F1F1E9C6B3100EA0EF8 /* anchorPointUITests.xctest */;
+			productReference = 01530F1F1E9C6B3100EA0EF8 /* AnchorPointUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01530EF61E9C6B3100EA0EF8 /* Build configuration list for PBXProject "anchorPoint" */;
+			buildConfigurationList = 01530EF61E9C6B3100EA0EF8 /* Build configuration list for PBXProject "AnchorPoint" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01530EFA1E9C6B3100EA0EF8 /* anchorPoint */,
-				01530F131E9C6B3100EA0EF8 /* anchorPointTests */,
-				01530F1E1E9C6B3100EA0EF8 /* anchorPointUITests */,
+				01530EFA1E9C6B3100EA0EF8 /* AnchorPoint */,
+				01530F131E9C6B3100EA0EF8 /* AnchorPointTests */,
+				01530F1E1E9C6B3100EA0EF8 /* AnchorPointUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01530F191E9C6B3100EA0EF8 /* anchorPointTests.m in Sources */,
+				01530F191E9C6B3100EA0EF8 /* AnchorPointTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01530F241E9C6B3100EA0EF8 /* anchorPointUITests.m in Sources */,
+				01530F241E9C6B3100EA0EF8 /* AnchorPointUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		01530F161E9C6B3100EA0EF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01530EFA1E9C6B3100EA0EF8 /* anchorPoint */;
+			target = 01530EFA1E9C6B3100EA0EF8 /* AnchorPoint */;
 			targetProxy = 01530F151E9C6B3100EA0EF8 /* PBXContainerItemProxy */;
 		};
 		01530F211E9C6B3100EA0EF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01530EFA1E9C6B3100EA0EF8 /* anchorPoint */;
+			target = 01530EFA1E9C6B3100EA0EF8 /* AnchorPoint */;
 			targetProxy = 01530F201E9C6B3100EA0EF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,7 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DDSC.anchorPointTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anchorPoint.app/anchorPoint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnchorPoint.temp_caseinsensitive_rename.app/AnchorPoint.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -472,7 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DDSC.anchorPointTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anchorPoint.app/anchorPoint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnchorPoint.temp_caseinsensitive_rename.app/AnchorPoint.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -501,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01530EF61E9C6B3100EA0EF8 /* Build configuration list for PBXProject "anchorPoint" */ = {
+		01530EF61E9C6B3100EA0EF8 /* Build configuration list for PBXProject "AnchorPoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01530F261E9C6B3100EA0EF8 /* Debug */,
@@ -510,29 +512,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01530F281E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "anchorPoint" */ = {
+		01530F281E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "AnchorPoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01530F291E9C6B3100EA0EF8 /* Debug */,
 				01530F2A1E9C6B3100EA0EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		01530F2B1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "anchorPointTests" */ = {
+		01530F2B1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "AnchorPointTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01530F2C1E9C6B3100EA0EF8 /* Debug */,
 				01530F2D1E9C6B3100EA0EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		01530F2E1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "anchorPointUITests" */ = {
+		01530F2E1E9C6B3100EA0EF8 /* Build configuration list for PBXNativeTarget "AnchorPointUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01530F2F1E9C6B3100EA0EF8 /* Debug */,
 				01530F301E9C6B3100EA0EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

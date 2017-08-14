@@ -13,8 +13,8 @@
 		018CB90B1EA6F84800A3EFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018CB9091EA6F84800A3EFAE /* Main.storyboard */; };
 		018CB90D1EA6F84800A3EFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018CB90C1EA6F84800A3EFAE /* Assets.xcassets */; };
 		018CB9101EA6F84800A3EFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018CB90E1EA6F84800A3EFAE /* LaunchScreen.storyboard */; };
-		018CB91B1EA6F84800A3EFAE /* affineTransformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CB91A1EA6F84800A3EFAE /* affineTransformTests.m */; };
-		018CB9261EA6F84800A3EFAE /* affineTransformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CB9251EA6F84800A3EFAE /* affineTransformUITests.m */; };
+		018CB91B1EA6F84800A3EFAE /* AffineTransformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CB91A1EA6F84800A3EFAE /* AffineTransformTests.m */; };
+		018CB9261EA6F84800A3EFAE /* AffineTransformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CB9251EA6F84800A3EFAE /* AffineTransformUITests.m */; };
 		018CB9341EA6F8A100A3EFAE /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 018CB9331EA6F8A100A3EFAE /* yellow.png */; };
 		018CB9361EA7020600A3EFAE /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 018CB9351EA7020600A3EFAE /* bg.jpg */; };
 		018CB93F1EA9B84500A3EFAE /* MieDianVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 018CB93E1EA9B84500A3EFAE /* MieDianVC.m */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018CB8FD1EA6F84800A3EFAE /* affineTransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = affineTransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018CB8FD1EA6F84800A3EFAE /* AffineTransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffineTransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018CB9011EA6F84800A3EFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		018CB9031EA6F84800A3EFAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		018CB9041EA6F84800A3EFAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,11 +50,11 @@
 		018CB90C1EA6F84800A3EFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		018CB90F1EA6F84800A3EFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		018CB9111EA6F84800A3EFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		018CB9161EA6F84800A3EFAE /* affineTransformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = affineTransformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		018CB91A1EA6F84800A3EFAE /* affineTransformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = affineTransformTests.m; sourceTree = "<group>"; };
+		018CB9161EA6F84800A3EFAE /* AffineTransformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffineTransformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018CB91A1EA6F84800A3EFAE /* AffineTransformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffineTransformTests.m; sourceTree = "<group>"; };
 		018CB91C1EA6F84800A3EFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		018CB9211EA6F84800A3EFAE /* affineTransformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = affineTransformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		018CB9251EA6F84800A3EFAE /* affineTransformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = affineTransformUITests.m; sourceTree = "<group>"; };
+		018CB9211EA6F84800A3EFAE /* AffineTransformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffineTransformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018CB9251EA6F84800A3EFAE /* AffineTransformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffineTransformUITests.m; sourceTree = "<group>"; };
 		018CB9271EA6F84800A3EFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		018CB9331EA6F8A100A3EFAE /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 		018CB9351EA7020600A3EFAE /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
@@ -94,9 +94,9 @@
 		018CB8F41EA6F84800A3EFAE = {
 			isa = PBXGroup;
 			children = (
-				018CB8FF1EA6F84800A3EFAE /* affineTransform */,
-				018CB9191EA6F84800A3EFAE /* affineTransformTests */,
-				018CB9241EA6F84800A3EFAE /* affineTransformUITests */,
+				018CB8FF1EA6F84800A3EFAE /* AffineTransform */,
+				018CB9191EA6F84800A3EFAE /* AffineTransformTests */,
+				018CB9241EA6F84800A3EFAE /* AffineTransformUITests */,
 				018CB8FE1EA6F84800A3EFAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,14 +104,14 @@
 		018CB8FE1EA6F84800A3EFAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				018CB8FD1EA6F84800A3EFAE /* affineTransform.app */,
-				018CB9161EA6F84800A3EFAE /* affineTransformTests.xctest */,
-				018CB9211EA6F84800A3EFAE /* affineTransformUITests.xctest */,
+				018CB8FD1EA6F84800A3EFAE /* AffineTransform.app */,
+				018CB9161EA6F84800A3EFAE /* AffineTransformTests.xctest */,
+				018CB9211EA6F84800A3EFAE /* AffineTransformUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		018CB8FF1EA6F84800A3EFAE /* affineTransform */ = {
+		018CB8FF1EA6F84800A3EFAE /* AffineTransform */ = {
 			isa = PBXGroup;
 			children = (
 				018CB9561EAD966200A3EFAE /* Reveal.framework */,
@@ -131,6 +131,7 @@
 				018CB9111EA6F84800A3EFAE /* Info.plist */,
 				018CB9001EA6F84800A3EFAE /* Supporting Files */,
 			);
+			name = AffineTransform;
 			path = affineTransform;
 			sourceTree = "<group>";
 		};
@@ -142,30 +143,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		018CB9191EA6F84800A3EFAE /* affineTransformTests */ = {
+		018CB9191EA6F84800A3EFAE /* AffineTransformTests */ = {
 			isa = PBXGroup;
 			children = (
-				018CB91A1EA6F84800A3EFAE /* affineTransformTests.m */,
+				018CB91A1EA6F84800A3EFAE /* AffineTransformTests.m */,
 				018CB91C1EA6F84800A3EFAE /* Info.plist */,
 			);
+			name = AffineTransformTests;
 			path = affineTransformTests;
 			sourceTree = "<group>";
 		};
-		018CB9241EA6F84800A3EFAE /* affineTransformUITests */ = {
+		018CB9241EA6F84800A3EFAE /* AffineTransformUITests */ = {
 			isa = PBXGroup;
 			children = (
-				018CB9251EA6F84800A3EFAE /* affineTransformUITests.m */,
+				018CB9251EA6F84800A3EFAE /* AffineTransformUITests.m */,
 				018CB9271EA6F84800A3EFAE /* Info.plist */,
 			);
+			name = AffineTransformUITests;
 			path = affineTransformUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		018CB8FC1EA6F84800A3EFAE /* affineTransform */ = {
+		018CB8FC1EA6F84800A3EFAE /* AffineTransform */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 018CB92A1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "affineTransform" */;
+			buildConfigurationList = 018CB92A1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "AffineTransform" */;
 			buildPhases = (
 				018CB8F91EA6F84800A3EFAE /* Sources */,
 				018CB8FA1EA6F84800A3EFAE /* Frameworks */,
@@ -175,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = affineTransform;
+			name = AffineTransform;
 			productName = affineTransform;
-			productReference = 018CB8FD1EA6F84800A3EFAE /* affineTransform.app */;
+			productReference = 018CB8FD1EA6F84800A3EFAE /* AffineTransform.app */;
 			productType = "com.apple.product-type.application";
 		};
-		018CB9151EA6F84800A3EFAE /* affineTransformTests */ = {
+		018CB9151EA6F84800A3EFAE /* AffineTransformTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 018CB92D1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "affineTransformTests" */;
+			buildConfigurationList = 018CB92D1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "AffineTransformTests" */;
 			buildPhases = (
 				018CB9121EA6F84800A3EFAE /* Sources */,
 				018CB9131EA6F84800A3EFAE /* Frameworks */,
@@ -193,14 +196,14 @@
 			dependencies = (
 				018CB9181EA6F84800A3EFAE /* PBXTargetDependency */,
 			);
-			name = affineTransformTests;
+			name = AffineTransformTests;
 			productName = affineTransformTests;
-			productReference = 018CB9161EA6F84800A3EFAE /* affineTransformTests.xctest */;
+			productReference = 018CB9161EA6F84800A3EFAE /* AffineTransformTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		018CB9201EA6F84800A3EFAE /* affineTransformUITests */ = {
+		018CB9201EA6F84800A3EFAE /* AffineTransformUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 018CB9301EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "affineTransformUITests" */;
+			buildConfigurationList = 018CB9301EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "AffineTransformUITests" */;
 			buildPhases = (
 				018CB91D1EA6F84800A3EFAE /* Sources */,
 				018CB91E1EA6F84800A3EFAE /* Frameworks */,
@@ -211,9 +214,9 @@
 			dependencies = (
 				018CB9231EA6F84800A3EFAE /* PBXTargetDependency */,
 			);
-			name = affineTransformUITests;
+			name = AffineTransformUITests;
 			productName = affineTransformUITests;
-			productReference = 018CB9211EA6F84800A3EFAE /* affineTransformUITests.xctest */;
+			productReference = 018CB9211EA6F84800A3EFAE /* AffineTransformUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 018CB8F81EA6F84800A3EFAE /* Build configuration list for PBXProject "affineTransform" */;
+			buildConfigurationList = 018CB8F81EA6F84800A3EFAE /* Build configuration list for PBXProject "AffineTransform" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,9 +257,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				018CB8FC1EA6F84800A3EFAE /* affineTransform */,
-				018CB9151EA6F84800A3EFAE /* affineTransformTests */,
-				018CB9201EA6F84800A3EFAE /* affineTransformUITests */,
+				018CB8FC1EA6F84800A3EFAE /* AffineTransform */,
+				018CB9151EA6F84800A3EFAE /* AffineTransformTests */,
+				018CB9201EA6F84800A3EFAE /* AffineTransformUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				018CB91B1EA6F84800A3EFAE /* affineTransformTests.m in Sources */,
+				018CB91B1EA6F84800A3EFAE /* AffineTransformTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				018CB9261EA6F84800A3EFAE /* affineTransformUITests.m in Sources */,
+				018CB9261EA6F84800A3EFAE /* AffineTransformUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,12 +327,12 @@
 /* Begin PBXTargetDependency section */
 		018CB9181EA6F84800A3EFAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 018CB8FC1EA6F84800A3EFAE /* affineTransform */;
+			target = 018CB8FC1EA6F84800A3EFAE /* AffineTransform */;
 			targetProxy = 018CB9171EA6F84800A3EFAE /* PBXContainerItemProxy */;
 		};
 		018CB9231EA6F84800A3EFAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 018CB8FC1EA6F84800A3EFAE /* affineTransform */;
+			target = 018CB8FC1EA6F84800A3EFAE /* AffineTransform */;
 			targetProxy = 018CB9221EA6F84800A3EFAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -494,7 +497,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DDSC.affineTransformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/affineTransform.app/affineTransform";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffineTransform.temp_caseinsensitive_rename.app/AffineTransform.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -506,7 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DDSC.affineTransformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/affineTransform.app/affineTransform";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffineTransform.temp_caseinsensitive_rename.app/AffineTransform.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -535,7 +538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		018CB8F81EA6F84800A3EFAE /* Build configuration list for PBXProject "affineTransform" */ = {
+		018CB8F81EA6F84800A3EFAE /* Build configuration list for PBXProject "AffineTransform" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018CB9281EA6F84900A3EFAE /* Debug */,
@@ -544,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		018CB92A1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "affineTransform" */ = {
+		018CB92A1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "AffineTransform" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018CB92B1EA6F84900A3EFAE /* Debug */,
@@ -553,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		018CB92D1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "affineTransformTests" */ = {
+		018CB92D1EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "AffineTransformTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018CB92E1EA6F84900A3EFAE /* Debug */,
@@ -562,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		018CB9301EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "affineTransformUITests" */ = {
+		018CB9301EA6F84900A3EFAE /* Build configuration list for PBXNativeTarget "AffineTransformUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018CB9311EA6F84900A3EFAE /* Debug */,

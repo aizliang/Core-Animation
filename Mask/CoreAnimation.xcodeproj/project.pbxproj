@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		01530F411E9DC2C700EA0EF8 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01530F401E9DC2C700EA0EF8 /* bg.jpg */; };
 		01530F431E9DC6DC00EA0EF8 /* bg_sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01530F421E9DC6DC00EA0EF8 /* bg_sun@2x.png */; };
-		015504011EA1A96100DDACD8 /* MaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 015503FF1EA1A96100DDACD8 /* MaskVC.m */; };
 		015504041EA1ADF500DDACD8 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015504031EA1ADF500DDACD8 /* Reveal.framework */; };
+		018FB2CD1F41A836000224B2 /* MaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FB2CC1F41A836000224B2 /* MaskVC.m */; };
 		0190C9901E8F44A1005B2E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190C98F1E8F44A1005B2E0B /* main.m */; };
 		0190C9931E8F44A1005B2E0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190C9921E8F44A1005B2E0B /* AppDelegate.m */; };
 		0190C9961E8F44A1005B2E0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190C9951E8F44A1005B2E0B /* ViewController.m */; };
@@ -18,7 +18,7 @@
 		0190C99B1E8F44A1005B2E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0190C99A1E8F44A1005B2E0B /* Assets.xcassets */; };
 		0190C99E1E8F44A1005B2E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0190C99C1E8F44A1005B2E0B /* LaunchScreen.storyboard */; };
 		0190C9A91E8F44A2005B2E0B /* coreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190C9A81E8F44A2005B2E0B /* coreAnimationTests.m */; };
-		0190C9B41E8F44A2005B2E0B /* coreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190C9B31E8F44A2005B2E0B /* coreAnimationUITests.m */; };
+		0190C9B41E8F44A2005B2E0B /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190C9B31E8F44A2005B2E0B /* CoreAnimationUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,10 @@
 /* Begin PBXFileReference section */
 		01530F401E9DC2C700EA0EF8 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		01530F421E9DC6DC00EA0EF8 /* bg_sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_sun@2x.png"; sourceTree = "<group>"; };
-		015503FE1EA1A96100DDACD8 /* MaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaskVC.h; path = ../MaskVC.h; sourceTree = "<group>"; };
-		015503FF1EA1A96100DDACD8 /* MaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaskVC.m; path = ../MaskVC.m; sourceTree = "<group>"; };
 		015504031EA1ADF500DDACD8 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
-		0190C98B1E8F44A1005B2E0B /* coreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018FB2CB1F41A836000224B2 /* MaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaskVC.h; path = CoreAnimation/MaskVC.h; sourceTree = SOURCE_ROOT; };
+		018FB2CC1F41A836000224B2 /* MaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaskVC.m; path = CoreAnimation/MaskVC.m; sourceTree = SOURCE_ROOT; };
+		0190C98B1E8F44A1005B2E0B /* CoreAnimation.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0190C98F1E8F44A1005B2E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0190C9911E8F44A1005B2E0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0190C9921E8F44A1005B2E0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,11 +54,11 @@
 		0190C99A1E8F44A1005B2E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0190C99D1E8F44A1005B2E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0190C99F1E8F44A1005B2E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0190C9A41E8F44A2005B2E0B /* coreAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0190C9A41E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimation.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0190C9A81E8F44A2005B2E0B /* coreAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreAnimationTests.m; sourceTree = "<group>"; };
 		0190C9AA1E8F44A2005B2E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0190C9AF1E8F44A2005B2E0B /* coreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0190C9B31E8F44A2005B2E0B /* coreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreAnimationUITests.m; sourceTree = "<group>"; };
+		0190C9AF1E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimation.temp_caseinsensitive_renameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0190C9B31E8F44A2005B2E0B /* CoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationUITests.m; sourceTree = "<group>"; };
 		0190C9B51E8F44A2005B2E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,9 +91,9 @@
 		0190C9821E8F44A1005B2E0B = {
 			isa = PBXGroup;
 			children = (
-				0190C98D1E8F44A1005B2E0B /* coreAnimation */,
-				0190C9A71E8F44A2005B2E0B /* coreAnimationTests */,
-				0190C9B21E8F44A2005B2E0B /* coreAnimationUITests */,
+				0190C98D1E8F44A1005B2E0B /* CoreAnimation */,
+				0190C9A71E8F44A2005B2E0B /* CoreAnimationTests */,
+				0190C9B21E8F44A2005B2E0B /* CoreAnimationUITests */,
 				0190C98C1E8F44A1005B2E0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,14 +101,14 @@
 		0190C98C1E8F44A1005B2E0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0190C98B1E8F44A1005B2E0B /* coreAnimation.app */,
-				0190C9A41E8F44A2005B2E0B /* coreAnimationTests.xctest */,
-				0190C9AF1E8F44A2005B2E0B /* coreAnimationUITests.xctest */,
+				0190C98B1E8F44A1005B2E0B /* CoreAnimation.temp_caseinsensitive_rename.app */,
+				0190C9A41E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameTests.xctest */,
+				0190C9AF1E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0190C98D1E8F44A1005B2E0B /* coreAnimation */ = {
+		0190C98D1E8F44A1005B2E0B /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
 				015504031EA1ADF500DDACD8 /* Reveal.framework */,
@@ -118,14 +118,15 @@
 				0190C9921E8F44A1005B2E0B /* AppDelegate.m */,
 				0190C9941E8F44A1005B2E0B /* ViewController.h */,
 				0190C9951E8F44A1005B2E0B /* ViewController.m */,
-				015503FE1EA1A96100DDACD8 /* MaskVC.h */,
-				015503FF1EA1A96100DDACD8 /* MaskVC.m */,
+				018FB2CB1F41A836000224B2 /* MaskVC.h */,
+				018FB2CC1F41A836000224B2 /* MaskVC.m */,
 				0190C9971E8F44A1005B2E0B /* Main.storyboard */,
 				0190C99A1E8F44A1005B2E0B /* Assets.xcassets */,
 				0190C99C1E8F44A1005B2E0B /* LaunchScreen.storyboard */,
 				0190C99F1E8F44A1005B2E0B /* Info.plist */,
 				0190C98E1E8F44A1005B2E0B /* Supporting Files */,
 			);
+			name = CoreAnimation;
 			path = coreAnimation;
 			sourceTree = "<group>";
 		};
@@ -137,30 +138,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0190C9A71E8F44A2005B2E0B /* coreAnimationTests */ = {
+		0190C9A71E8F44A2005B2E0B /* CoreAnimationTests */ = {
 			isa = PBXGroup;
 			children = (
 				0190C9A81E8F44A2005B2E0B /* coreAnimationTests.m */,
 				0190C9AA1E8F44A2005B2E0B /* Info.plist */,
 			);
+			name = CoreAnimationTests;
 			path = coreAnimationTests;
 			sourceTree = "<group>";
 		};
-		0190C9B21E8F44A2005B2E0B /* coreAnimationUITests */ = {
+		0190C9B21E8F44A2005B2E0B /* CoreAnimationUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0190C9B31E8F44A2005B2E0B /* coreAnimationUITests.m */,
+				0190C9B31E8F44A2005B2E0B /* CoreAnimationUITests.m */,
 				0190C9B51E8F44A2005B2E0B /* Info.plist */,
 			);
+			name = CoreAnimationUITests;
 			path = coreAnimationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0190C98A1E8F44A1005B2E0B /* coreAnimation */ = {
+		0190C98A1E8F44A1005B2E0B /* CoreAnimation.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0190C9B81E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "coreAnimation" */;
+			buildConfigurationList = 0190C9B81E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "CoreAnimation.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				0190C9871E8F44A1005B2E0B /* Sources */,
 				0190C9881E8F44A1005B2E0B /* Frameworks */,
@@ -170,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = coreAnimation;
+			name = CoreAnimation.temp_caseinsensitive_rename;
 			productName = coreAnimation;
-			productReference = 0190C98B1E8F44A1005B2E0B /* coreAnimation.app */;
+			productReference = 0190C98B1E8F44A1005B2E0B /* CoreAnimation.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0190C9A31E8F44A2005B2E0B /* coreAnimationTests */ = {
+		0190C9A31E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0190C9BB1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "coreAnimationTests" */;
+			buildConfigurationList = 0190C9BB1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "CoreAnimation.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				0190C9A01E8F44A2005B2E0B /* Sources */,
 				0190C9A11E8F44A2005B2E0B /* Frameworks */,
@@ -188,14 +191,14 @@
 			dependencies = (
 				0190C9A61E8F44A2005B2E0B /* PBXTargetDependency */,
 			);
-			name = coreAnimationTests;
+			name = CoreAnimation.temp_caseinsensitive_renameTests;
 			productName = coreAnimationTests;
-			productReference = 0190C9A41E8F44A2005B2E0B /* coreAnimationTests.xctest */;
+			productReference = 0190C9A41E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0190C9AE1E8F44A2005B2E0B /* coreAnimationUITests */ = {
+		0190C9AE1E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0190C9BE1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "coreAnimationUITests" */;
+			buildConfigurationList = 0190C9BE1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "CoreAnimation.temp_caseinsensitive_renameUITests" */;
 			buildPhases = (
 				0190C9AB1E8F44A2005B2E0B /* Sources */,
 				0190C9AC1E8F44A2005B2E0B /* Frameworks */,
@@ -206,9 +209,9 @@
 			dependencies = (
 				0190C9B11E8F44A2005B2E0B /* PBXTargetDependency */,
 			);
-			name = coreAnimationUITests;
+			name = CoreAnimation.temp_caseinsensitive_renameUITests;
 			productName = coreAnimationUITests;
-			productReference = 0190C9AF1E8F44A2005B2E0B /* coreAnimationUITests.xctest */;
+			productReference = 0190C9AF1E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0190C9861E8F44A1005B2E0B /* Build configuration list for PBXProject "coreAnimation" */;
+			buildConfigurationList = 0190C9861E8F44A1005B2E0B /* Build configuration list for PBXProject "CoreAnimation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -249,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0190C98A1E8F44A1005B2E0B /* coreAnimation */,
-				0190C9A31E8F44A2005B2E0B /* coreAnimationTests */,
-				0190C9AE1E8F44A2005B2E0B /* coreAnimationUITests */,
+				0190C98A1E8F44A1005B2E0B /* CoreAnimation.temp_caseinsensitive_rename */,
+				0190C9A31E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameTests */,
+				0190C9AE1E8F44A2005B2E0B /* CoreAnimation.temp_caseinsensitive_renameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015504011EA1A96100DDACD8 /* MaskVC.m in Sources */,
+				018FB2CD1F41A836000224B2 /* MaskVC.m in Sources */,
 				0190C9961E8F44A1005B2E0B /* ViewController.m in Sources */,
 				0190C9931E8F44A1005B2E0B /* AppDelegate.m in Sources */,
 				0190C9901E8F44A1005B2E0B /* main.m in Sources */,
@@ -309,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0190C9B41E8F44A2005B2E0B /* coreAnimationUITests.m in Sources */,
+				0190C9B41E8F44A2005B2E0B /* CoreAnimationUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		0190C9A61E8F44A2005B2E0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0190C98A1E8F44A1005B2E0B /* coreAnimation */;
+			target = 0190C98A1E8F44A1005B2E0B /* CoreAnimation.temp_caseinsensitive_rename */;
 			targetProxy = 0190C9A51E8F44A2005B2E0B /* PBXContainerItemProxy */;
 		};
 		0190C9B11E8F44A2005B2E0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0190C98A1E8F44A1005B2E0B /* coreAnimation */;
+			target = 0190C98A1E8F44A1005B2E0B /* CoreAnimation.temp_caseinsensitive_rename */;
 			targetProxy = 0190C9B01E8F44A2005B2E0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -492,7 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DDSC.coreAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreAnimation.app/coreAnimation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimation.temp_caseinsensitive_rename.app/CoreAnimation.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -504,7 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DDSC.coreAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreAnimation.app/coreAnimation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimation.temp_caseinsensitive_rename.app/CoreAnimation.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -533,7 +536,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0190C9861E8F44A1005B2E0B /* Build configuration list for PBXProject "coreAnimation" */ = {
+		0190C9861E8F44A1005B2E0B /* Build configuration list for PBXProject "CoreAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0190C9B61E8F44A2005B2E0B /* Debug */,
@@ -542,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0190C9B81E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "coreAnimation" */ = {
+		0190C9B81E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "CoreAnimation.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0190C9B91E8F44A2005B2E0B /* Debug */,
@@ -551,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0190C9BB1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "coreAnimationTests" */ = {
+		0190C9BB1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "CoreAnimation.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0190C9BC1E8F44A2005B2E0B /* Debug */,
@@ -560,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0190C9BE1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "coreAnimationUITests" */ = {
+		0190C9BE1E8F44A2005B2E0B /* Build configuration list for PBXNativeTarget "CoreAnimation.temp_caseinsensitive_renameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0190C9BF1E8F44A2005B2E0B /* Debug */,
