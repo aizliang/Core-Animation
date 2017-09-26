@@ -78,7 +78,7 @@
 
     
     CALayer *subLayer = [CALayer layer];
-    subLayer.frame = CGRectMake(0, 0, 30, 30);
+    subLayer.frame = CGRectMake(0, 0, 15, 15);
     subLayer.backgroundColor = [UIColor whiteColor].CGColor;
     [layer addSublayer:subLayer];
     

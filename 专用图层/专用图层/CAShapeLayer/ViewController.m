@@ -28,7 +28,7 @@
     _matchstickMen.frame = self.view.bounds;
     [self.view.layer addSublayer:_matchstickMen];
     
-    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(150, 200) radius:50 startAngle:0 endAngle:2*M_PI clockwise:YES];
+    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(150, 200) radius:50 startAngle:0 endAngle:2 * M_PI clockwise:YES];
     [path moveToPoint:CGPointMake(150, 250)];
     [path addLineToPoint:CGPointMake(150, 350)];
     [path addLineToPoint:CGPointMake(100, 400)];
@@ -44,6 +44,7 @@
     _matchstickMen.strokeColor = [UIColor redColor].CGColor;
     _matchstickMen.fillColor = [UIColor clearColor].CGColor;
 }
+
 
 - (void)addRoundingRect {
     CAShapeLayer *rectLayer = [CAShapeLayer new];
