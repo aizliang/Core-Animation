@@ -8,7 +8,7 @@
 `CALayerDelegate` 有一个代理方法
 
 ```Swift
-	func action(for layer: CALayer, forKey event: String) -> CAAction?
+func action(for layer: CALayer, forKey event: String) -> CAAction?
 ```
 
 `CALayer` 会通过这个代理方法获取到属性变化的 `CAAction`，返回形式有三种：
