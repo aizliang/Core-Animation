@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
 class ImplicitAnimationVC : UIViewController {
     let implicitView = ImplicitView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Implicit Animation"
         self.view.backgroundColor = UIColor.white
         
         let btn1 = UIButton.init(frame: CGRect.init(x: 50, y: 150, width: UIScreen.main.bounds.size.width - 100, height: 20))
@@ -29,10 +30,10 @@ class ImplicitAnimationVC : UIViewController {
     @objc private func action1() {
         UIView.animate(withDuration: 0.3) {
             self.implicitView.frame = CGRect.init(x:  UIScreen.main.bounds.size.width - 70, y: 200, width: 20, height: 20)
-            print("闭包内部动画：\(String(describing: self.implicitView.layer.action(forKey: "position")))")
+            print("闭包内部动画：\(String(describing: self.implicitView.action(for: self.implicitView.layer, forKey: "position")))")
         }
         
-        print("闭包外部动画：\(String(describing: implicitView.layer.action(forKey: "position")))")
+        print("闭包外部动画：\(String(describing: self.implicitView.action(for: self.implicitView.layer, forKey: "position")))")
     }
 }
 
