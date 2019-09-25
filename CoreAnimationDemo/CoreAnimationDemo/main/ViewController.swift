@@ -8,6 +8,9 @@
 
 import UIKit
 
+let kScreenWidth = UIScreen.main.bounds.size.width
+let kScreenHeight = UIScreen.main.bounds.size.height
+
 class ViewController: UIViewController  {
 
     let moduleTitles = ["图层树", "寄宿图", "图层几何学", "视觉效果", "变化", "专用图层", "隐式动画", "显示动画",
