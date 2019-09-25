@@ -18,6 +18,7 @@ class ImplicitAnimationVC : UIViewController {
         
         let btn1 = UIButton.init(frame: CGRect.init(x: 50, y: 150, width: UIScreen.main.bounds.size.width - 100, height: 20))
         btn1.setTitle("UIView 和 CALayer 交互验证，请点击", for: .normal)
+        btn1.titleLabel?.adjustsFontSizeToFitWidth = true
         btn1.setTitleColor(UIColor.blue, for: .normal)
         btn1.addTarget(self, action: #selector(action1), for: .touchUpInside)
         self.view.addSubview(btn1)
