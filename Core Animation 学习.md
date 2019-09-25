@@ -1,5 +1,14 @@
 ## Core Animation 学习
 
+### 隐式动画
+
+图层改变属性的时候，不是马上在屏幕上生效，而是会有一个过渡动画。这个过渡动画就称为隐式动画。
+
+例如直接修改一个 layer 的背景色，效果如下：
+
+![](https://github.com/windazl/CoreAnimation/blob/master/Resource/changLayerColor.gif)
+
+
 `CALayerDelegate` 有一个代理方法
 
 ```Swift

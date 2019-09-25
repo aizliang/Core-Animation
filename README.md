@@ -6,6 +6,10 @@
 
 ### 隐式动画
 
+##### 事务
+
+![](https://github.com/windazl/CoreAnimation/blob/master/Resource/changLayerColor.gif)
+
 ##### UIView 和 CALayer 交互验证
 
 ![](https://github.com/windazl/CoreAnimation/blob/master/Resource/ImplicitAnimation.gif)
