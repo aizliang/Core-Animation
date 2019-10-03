@@ -14,6 +14,8 @@
 		01A6E38C2339F6DE00AA0332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A6E38A2339F6DE00AA0332 /* LaunchScreen.storyboard */; };
 		01A6E39B233B402200AA0332 /* ImplicitAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E399233B402200AA0332 /* ImplicitAnimationVC.swift */; };
 		01A6E39C233B402200AA0332 /* ImplicitAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6E39A233B402200AA0332 /* ImplicitAnimationVC.xib */; };
+		01A6E3BE2345BC2B00AA0332 /* VisionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E3BC2345BC2B00AA0332 /* VisionVC.swift */; };
+		01A6E3BF2345BC2B00AA0332 /* VisionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6E3BD2345BC2B00AA0332 /* VisionVC.xib */; };
 		184372BD8E3AD88B10A892EE /* Pods_CoreAnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA1D382B3015EAC6B407E2 /* Pods_CoreAnimationDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		01A6E38D2339F6DE00AA0332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A6E399233B402200AA0332 /* ImplicitAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationVC.swift; sourceTree = "<group>"; };
 		01A6E39A233B402200AA0332 /* ImplicitAnimationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImplicitAnimationVC.xib; sourceTree = "<group>"; };
+		01A6E3BC2345BC2B00AA0332 /* VisionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionVC.swift; sourceTree = "<group>"; };
+		01A6E3BD2345BC2B00AA0332 /* VisionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisionVC.xib; sourceTree = "<group>"; };
 		188A9DA867186EBD541E36EE /* Pods-CoreAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreAnimationDemo/Pods-CoreAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		36B68A41A75393BBE6E50767 /* Pods-CoreAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreAnimationDemo/Pods-CoreAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6ADA1D382B3015EAC6B407E2 /* Pods_CoreAnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreAnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				01A6E395233A042000AA0332 /* main */,
+				01A6E3BB2345BBEC00AA0332 /* 视觉效果 */,
 				01A6E394233A040700AA0332 /* 隐式动画 */,
 				01A6E396233A043600AA0332 /* resource */,
 			);
@@ -99,6 +104,15 @@
 				01A6E38D2339F6DE00AA0332 /* Info.plist */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		01A6E3BB2345BBEC00AA0332 /* 视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				01A6E3BC2345BC2B00AA0332 /* VisionVC.swift */,
+				01A6E3BD2345BC2B00AA0332 /* VisionVC.xib */,
+			);
+			path = "视觉效果";
 			sourceTree = "<group>";
 		};
 		A3E4F1EF5786348150F5EEEE /* Frameworks */ = {
@@ -178,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A6E3BF2345BC2B00AA0332 /* VisionVC.xib in Resources */,
 				01A6E38C2339F6DE00AA0332 /* LaunchScreen.storyboard in Resources */,
 				01A6E39C233B402200AA0332 /* ImplicitAnimationVC.xib in Resources */,
 				01A6E3892339F6DE00AA0332 /* Assets.xcassets in Resources */,
@@ -236,6 +251,7 @@
 			files = (
 				01A6E39B233B402200AA0332 /* ImplicitAnimationVC.swift in Sources */,
 				01A6E3842339F6DC00AA0332 /* ViewController.swift in Sources */,
+				01A6E3BE2345BC2B00AA0332 /* VisionVC.swift in Sources */,
 				01A6E3822339F6DC00AA0332 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
